@@ -327,13 +327,14 @@ body.dark-theme {
   text-align: center;
 }
 .services__description {
-  text-align: left;
+  text-align: center;
 }
 .members_profile {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
+  width: 60%;
 }
 /*=============== APP ===============*/
 .app__container {
@@ -485,8 +486,9 @@ body.dark-theme {
     width: 50%;
   }
   .members_profile {
-    width: 40%;
+    width: 60%;
   }
+
   .section {
     padding: 3.5rem 0 1rem;
   }
@@ -507,11 +509,12 @@ body.dark-theme {
     width: 50%;
   }
   .members_profile {
-    width: 50%;
+    width: 30%;
   }
   .section__title-center {
     text-align: center;
   }
+
   .home__container,
   .about__container,
   .security__container,
@@ -551,7 +554,7 @@ body.dark-theme {
     width: 25%;
   }
   .members_profile {
-    width: 50%;
+    width: 30%;
   }
   .section {
     padding: 6rem 0 2rem;
@@ -575,6 +578,7 @@ body.dark-theme {
   .app__buttons {
     justify-content: initial;
   }
+
 }
 
 /* For large devices */
