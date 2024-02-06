@@ -6,9 +6,9 @@
   /*========== Colors ==========*/
   --hue: 45;
   --sat: 98%;
-  --first-color: hsl(var(--hue), var(--sat), 60%);
+  --first-color: #FFF;
   --first-color-light: hsl(var(--hue), var(--sat), 85%);
-  --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
+  --first-color-lighten: #EBEDEF;
   --first-color-alt: hsl(var(--hue), var(--sat), 53%);
   --title-color: hsl(var(--hue), 4%, 15%);
   --text-color: hsl(var(--hue), 4%, 35%);
@@ -240,10 +240,18 @@ body.dark-theme {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-bold);
   margin-bottom: var(--mb-0-75);
+  text-align: center;
 }
 
 .home__description {
   margin-bottom: var(--mb-2);
+  text-align: center;
+}
+.Logo_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 /*=============== BUTTONS ===============*/
@@ -304,7 +312,7 @@ body.dark-theme {
   text-align: center;
 }
 
-/*=============== SERVICES ===============*/
+/*=============== Members ===============*/
 .services__container {
   padding-top: 1rem;
 }
@@ -318,13 +326,15 @@ body.dark-theme {
   border-radius: 1rem;
   text-align: center;
 }
-
-.services__img {
-  width: 135px;
-  justify-self: center;
-  margin-bottom: var(--mb-0-5);
+.services__description {
+  text-align: left;
 }
-
+.members_profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
 /*=============== APP ===============*/
 .app__container {
   gap: 2.5rem;
@@ -471,6 +481,9 @@ body.dark-theme {
   .svg__img {
     width: 100%;
   }
+  .Logo_center {
+    width: 50%;
+  }
   .section {
     padding: 3.5rem 0 1rem;
   }
@@ -487,8 +500,11 @@ body.dark-theme {
   .svg__img {
     width: 100%;
   }
+  .Logo_center {
+    width: 50%;
+  }
   .section__title-center {
-    text-align: initial;
+    text-align: center;
   }
   .home__container,
   .about__container,
@@ -497,7 +513,7 @@ body.dark-theme {
   .app__container,
   .contact__container,
   .footer__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .home__img {
     order: 1;
@@ -524,6 +540,9 @@ body.dark-theme {
 @media screen and (min-width: 767px) {
   body {
     margin: 0;
+  }
+  .Logo_center {
+    width: 25%;
   }
   .section {
     padding: 6rem 0 2rem;
@@ -557,6 +576,9 @@ body.dark-theme {
   .svg__img {
     width: 470px;
   }
+  .Logo_center {
+    width: 25%;
+  }
   .about__container,
   .security__container,
   .app__container,
@@ -567,7 +589,7 @@ body.dark-theme {
     grid-template-columns: repeat(3, 1fr);
   }
   .contact__container {
-    grid-template-columns: 3fr 1.5fr 1.25fr;
+    grid-template-columns: 3fr 1.5fr;
   }
   .footer__container {
     grid-template-columns: repeat(5, 1fr);
@@ -588,8 +610,14 @@ body.dark-theme {
   .home__img {
     width: 540px;
   }
+  .Logo_center {
+    width: 25%;
+  }
+  .members_profile {
+    width: 70%;
+  }
   .home__description {
-    padding-right: 5rem;
+    /*padding-right: 5rem;*/
   }
   .footer__container {
     column-gap: 3rem;
