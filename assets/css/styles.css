@@ -506,7 +506,7 @@ body.dark-theme {
     width: 100%;
   }
   .Logo_center {
-    width: 50%;
+    width: 30%;
   }
   .members_profile {
     width: 30%;
@@ -550,9 +550,7 @@ body.dark-theme {
   body {
     margin: 0;
   }
-  .Logo_center {
-    width: 25%;
-  }
+
   .members_profile {
     width: 30%;
   }
@@ -589,9 +587,7 @@ body.dark-theme {
   .svg__img {
     width: 470px;
   }
-  .Logo_center {
-    width: 25%;
-  }
+
   .members_profile {
     width: 70%;
   }
@@ -626,9 +622,7 @@ body.dark-theme {
   .home__img {
     width: 540px;
   }
-  .Logo_center {
-    width: 25%;
-  }
+
   .members_profile {
     width: 70%;
   }
