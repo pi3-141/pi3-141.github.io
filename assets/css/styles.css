@@ -538,7 +538,7 @@ body.dark-theme {
   .security__data,
   .app__data,
   .contact__description {
-    text-align: initial;
+    text-align: center;
   }
   .about__img,
   .app__img {
